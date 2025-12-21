@@ -1,0 +1,183 @@
+(footprint "R_Shunt_Isabellenhuette_BVR4026"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "4-Wire Shunt, SMD 4026, https://www.isabellenhuette.de/fileadmin/Daten/Praezisionswiderstaende/Datenblaetter/BVR.PDF")
+	(tags "kelvin-connection")
+	(property "Reference" "REF**"
+		(at -0.5 -4.5 180)
+		(layer "F.SilkS")
+		(uuid "47cb6495-0ab5-4447-92c9-55ba6f9aac0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0.3m"
+		(at 0 4.699 180)
+		(layer "F.Fab")
+		(uuid "abb336ea-733d-4209-88ad-0a095e52bb34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Resistor_SMD:R_Shunt_Isabellenhuette_BVR4026"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2037ddbf-8f5b-4e6f-b0f8-e6b2f37e326f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b1ad1f2-3e1a-481e-a3b8-be8bc86e36ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Shunt resistor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39e69e97-8a21-4657-ad17-a2a5c78b4914")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.2 2.2)
+		(end -5.2 2.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "263f8b34-2eec-4d1f-9241-21bf8c1da234")
+	)
+	(fp_line
+		(start -2.5 -3.5)
+		(end 2.5 -3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5daa7b74-f174-4a4c-aebd-1e4e82e5a275")
+	)
+	(fp_line
+		(start -2.4 3.5)
+		(end 2.4 3.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5da25af-659f-45ce-81c5-537b0f844a72")
+	)
+	(fp_line
+		(start 5.2 2.2)
+		(end 5.2 2.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "48483c8f-3a89-462a-a046-2d5c69c67d40")
+	)
+	(fp_rect
+		(start -5.55 -3.9)
+		(end 5.55 3.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c2a862c5-b577-4eab-98f5-cfc0072d0105")
+	)
+	(fp_rect
+		(start 3 -3.3375)
+		(end 5.05 3.3375)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9207b975-0204-4b26-b737-100d2b446b58")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "c2edb110-0674-448d-ae13-4952eb85aabd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.025 -0.85)
+		(size 2.55 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "550d3524-3615-4e90-97fa-4e155747108f")
+	)
+	(pad "2" smd roundrect
+		(at -4.025 3.2)
+		(size 2.55 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "32bf42a7-77fb-4164-b36a-a03ea86eca59")
+	)
+	(pad "3" smd roundrect
+		(at 4.025 3.2)
+		(size 2.55 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "170e2061-d0b5-412f-8984-165d60b77157")
+	)
+	(pad "4" smd roundrect
+		(at 4.025 -0.85)
+		(size 2.55 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f12afe3a-c161-4387-928f-3cfff691d8fc")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Shunt_Isabellenhuette_BVR4026.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

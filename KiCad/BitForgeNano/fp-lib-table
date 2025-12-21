@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BitForgeNano")(type "KiCad")(uri "${KIPRJMOD}/BitForgeNano.pretty")(options "")(descr ""))
+  (lib (name "BitForgeNano_1368")(type "KiCad")(uri "${KIPRJMOD}/BitForgeNano_1368.pretty")(options "")(descr ""))
+)

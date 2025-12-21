@@ -1,0 +1,223 @@
+(footprint "RT9080-33GJ5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.8 1.1 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e51613da-1b07-4da0-875b-477986c6f6f9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RT9080-33GJ5"
+		(at 1.96 -4.77 180)
+		(layer "F.Fab")
+		(uuid "682c4205-693c-428f-a873-6ea68226245a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13bbb3ca-4c26-4dd4-b2d3-c6ce600a6a5f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a61f0728-5b81-4145-bd8e-db0704cd792f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK" "1028-1509-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c311c27-84f5-4f5b-afff-188318371c55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTNO" "RT9080-33GJ5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcdd2064-3449-44a6-a850-29bf9a66d4f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.9017 -1.5494)
+		(end -0.9017 1.5494)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94658dc3-7a1d-489f-bd8b-b3a5ff4d3fa9")
+	)
+	(fp_line
+		(start -0.9017 1.5494)
+		(end 0.9017 1.5494)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a97e4586-1645-47b0-87fb-50a8d8e95658")
+	)
+	(fp_line
+		(start 0.9017 -1.5494)
+		(end -0.9017 -1.5494)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb2b6072-e8a2-4c2e-8ae4-1f2010b0cf28")
+	)
+	(fp_line
+		(start 0.9017 1.5494)
+		(end 0.9017 -1.5494)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "add9542d-74cb-448b-abfb-358dc0948939")
+	)
+	(fp_rect
+		(start -2.01 -1.8)
+		(end 2.01 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4c271562-3802-49f8-8c89-0e1edb75f11c")
+	)
+	(fp_line
+		(start -0.9017 -0.6604)
+		(end -0.9017 -1.2192)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2eb99b83-a4dc-4870-a84a-12feeea74cfa")
+	)
+	(fp_line
+		(start -0.9017 0.2794)
+		(end -0.9017 -0.2794)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "567daf3f-d292-4421-8312-c65a9bee4ed7")
+	)
+	(fp_line
+		(start -0.9017 1.2192)
+		(end -0.9017 0.6604)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5b4fc96-6301-45dd-a037-e507f0dda21c")
+	)
+	(fp_line
+		(start 0.9017 -1.2192)
+		(end 0.9017 -0.6604)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b79ffb1a-7f2c-44e5-b336-5f4f44425f4a")
+	)
+	(fp_line
+		(start 0.9017 0.6604)
+		(end 0.9017 1.2192)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da9719fd-5561-4664-a60c-6d06f4fff590")
+	)
+	(pad "1" smd rect
+		(at -1.37795 -0.9398)
+		(size 0.9525 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d679401b-31c0-4ff9-b594-9ee0dc431c64")
+	)
+	(pad "2" smd rect
+		(at -1.37795 0)
+		(size 0.9525 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d0a4fd36-f3e3-40c4-8353-a594a3e6d974")
+	)
+	(pad "3" smd rect
+		(at -1.37795 0.9398)
+		(size 0.9525 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "44b894d7-ca42-4131-972d-9fcc50cc3361")
+	)
+	(pad "4" smd rect
+		(at 1.37795 0.9398)
+		(size 0.9525 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7d8a584b-5f93-4c6b-9e86-9f3a0c597fb2")
+	)
+	(pad "5" smd rect
+		(at 1.37795 -0.9398)
+		(size 0.9525 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f4d87bcc-ae23-462d-abe7-5d9bc1d9137f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/TSOT-23-5_RIT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

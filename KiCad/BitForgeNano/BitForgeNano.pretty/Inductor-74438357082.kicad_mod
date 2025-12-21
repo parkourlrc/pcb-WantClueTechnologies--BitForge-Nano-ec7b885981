@@ -1,0 +1,231 @@
+(footprint "Inductor-74438357082"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.65 2.95 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b552e502-c682-4b96-966a-f5d68f47c4ea")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "8.2 uH"
+		(at 0.26 3.21 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0b7e0f1b-c181-494b-acae-e4cdb0208815")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74438357082.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2728e432-de79-4d3a-993b-f81cd822a4e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93e08a1b-1317-436c-ad56-4574339ad7c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTNO" "78438357082"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "632b6fbe-08b7-4e0d-915e-704bb921d9ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DK" "732-11745-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11ad0f44-6b12-4acb-bbcb-5e11a594a049")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.95 -1.8)
+		(end -2.95 1.8)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b7360a17-b526-4bb3-b0ce-906de6d08692")
+	)
+	(fp_line
+		(start -2.25 -2.25)
+		(end -2.25 -1.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3de4b4c4-97c8-44f9-a06b-3861fc46000f")
+	)
+	(fp_line
+		(start -2.25 1.95)
+		(end -2.25 2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d492fea-01b6-494c-b20e-46e0287694e1")
+	)
+	(fp_line
+		(start -2.25 2.25)
+		(end 2.25 2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b09fa9b-2f8d-40a3-89be-0e5b4c529bf0")
+	)
+	(fp_line
+		(start 2.25 -2.25)
+		(end -2.25 -2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70c54474-abca-4a9c-8f44-1fc7fa0428eb")
+	)
+	(fp_line
+		(start 2.25 -1.95)
+		(end 2.25 -2.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "721e9e74-fccd-4322-9387-b6f4c08d7bc7")
+	)
+	(fp_line
+		(start 2.25 2.25)
+		(end 2.25 1.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f2211485-1d46-4404-a3d8-0cbf3050fe66")
+	)
+	(fp_line
+		(start -2.3 -2.3)
+		(end 2.3 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4c3a2221-0fb2-48f5-b48f-3e08f7e4a737")
+	)
+	(fp_line
+		(start -2.3 2.3)
+		(end -2.3 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "313d5e7a-06b5-4c47-a57f-bdf5cb21e394")
+	)
+	(fp_line
+		(start 2.3 -2.3)
+		(end 2.3 2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb74e5f1-e40c-4bb1-a8d9-ef1f5d865548")
+	)
+	(fp_line
+		(start 2.3 2.3)
+		(end -2.3 2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9383894e-ac83-4ac9-809a-00f93e379b7d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.03 4.76 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c8730b5b-5edb-4092-b939-ef852646a562")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.695 0)
+		(size 2 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c1669dc9-4b2b-4fe6-b7c0-e0a3a8c759bd")
+	)
+	(pad "2" smd rect
+		(at 1.695 0)
+		(size 2 3.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "99de5006-af66-4d90-b549-9515f69f5f82")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/78438357082.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 -180)
+		)
+	)
+)
