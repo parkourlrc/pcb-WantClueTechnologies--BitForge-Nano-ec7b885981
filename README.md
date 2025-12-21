@@ -1,8 +1,8 @@
-# 🪙 Open Source Bitcoin Miner PCB – GPL Licensed
+# 🪙 Open Source Bitcoin Miner PCB – CERN OHL 2 - S Licensed
 
 This project presents a fully open-source Bitcoin mining hardware platform, designed for transparency, modularity, and extensibility. Built around the BM1370 ASICs and powered by an ESP32-S3 microcontroller, this board offers a compact yet powerful solution for enthusiasts and developers interested in cryptocurrency mining hardware.
 
-Released under the **GNU General Public License (GPL)**, all design files, firmware, and documentation are freely available for use, modification, and redistribution.
+Released under the **CERN OHL 2 S**, all design files, firmware, and documentation are freely available for use, modification, and redistribution.
 
 ---
 
