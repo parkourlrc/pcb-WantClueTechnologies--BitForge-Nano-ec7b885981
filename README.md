@@ -8,7 +8,7 @@ Released under the **CERN OHL 2 S**, all design files, firmware, and documentati
 
 ## 📌 Key Features
 
-- **Open Source Hardware & Firmware** – GPL licensed
+- **Open Source Hardware & Firmware** – CERN-OHL-S licensed
 - **Dual BM1370 ASICs** for parallel mining
 - **ESP32-S3** as the central controller
 - **Precision power monitoring** via INA260
@@ -68,12 +68,15 @@ A **USB-C port** is provided for firmware flashing and future updates, making de
 
 ## 🛠️ Open Source & Licensing
 
-This project is proudly released under the **GNU General Public License (GPL)**. This means:
+This project is proudly released under the **CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S)**. This means:
 
-- You are free to use, modify, and distribute the hardware and firmware
-- Any derivative work must also be released under the GPL
+- You are free to use, study, modify, and distribute the hardware designs
+- Any derivative work must also be released under CERN-OHL-S
+- If you manufacture or distribute products based on this design, you must provide recipients with access to the complete source files
 - Contributions and improvements are welcome!
 
-We believe in open collaboration and transparency. By releasing this project under GPL, we aim to foster innovation in the hardware mining community and provide a solid foundation for further development.
+The CERN-OHL-S is specifically designed for open-source hardware, ensuring that designs remain open and accessible. We believe in open collaboration and transparency, and by releasing this project under CERN-OHL-S, we aim to foster innovation in the hardware mining community and provide a solid foundation for further development.
+
+For the full license text, see the [LICENSE](LICENSE) file.
 
 ---
